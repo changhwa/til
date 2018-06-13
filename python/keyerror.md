@@ -14,3 +14,7 @@ except Exception:
 _source = hits['_source']
 _source.get('title', '') # title 필드가 없어도 '' 로 세팅함
 ```
+
+추가로 알게된 점 (왜 미처 생각 못했을까)  
+key 가 있는지 체크하여 활용하면 된다.
+`ex) source['title'] if title in source else ''`
