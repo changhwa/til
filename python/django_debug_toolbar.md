@@ -1,7 +1,7 @@
 # Django Debug Toolbar
 
 기존에 장고 프로젝트에서 로그를 볼 때는 콘솔로 봤고 sql log는 보기가 좀 불편했다.  
-리서치 결과 Django Debug Toolbar라는 플러그인 을 찾았는데 참 좋다.
+리서치 결과 Django Debug Toolbar라는 플러그인 을 찾았는데 참 좋다.  
 [Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar)  
 
 ```
