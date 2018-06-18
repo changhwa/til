@@ -1,0 +1,9 @@
+멀티 프로세스 프로그래밍을 하다보면 프로세스 기반으로 모니터링 할 때 쓰려고 만들었다.
+```
+// $1->  1=pid, 2=cpu, 3=mem
+// $2->  갯수
+function psort()
+{
+  ps -u $USER -o pid,%cpu,%mem,comm | sort -rk $1 | head -n $2 ;
+}
+```
