@@ -1,4 +1,4 @@
-python 코딩의 기술 스터디 Day 1 정리  
+## python 코딩의 기술 스터디 Day 1 정리  
 **Better way 1 사용 중인 파이썬의 버전을 알자**
 ```
 Q) python2 와 python3 어떤걸 쓸까?  
